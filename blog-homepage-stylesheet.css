@@ -1,5 +1,5 @@
 html {
-	background-color: #D9FFE9;
+	background-color: #white;
 }
 
 
@@ -7,7 +7,7 @@ html {
 	font-family: sans-serif;
 }
 header {
-	background-color: #81FF67;
+	background-color: rgba(61, 237, 49, 0.34);
 	border: 2px solid #545454;
 }
 
@@ -91,6 +91,6 @@ footer {
   border: 1px solid gray;
   width: 100%;
   text-align: center;
-  margin-top: 50%;
+  margin-top: 35%;
   background-color: #ADACBF;
 }
