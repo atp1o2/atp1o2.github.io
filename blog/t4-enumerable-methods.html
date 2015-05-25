@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+  <title>Next Level Blog Posts</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+</head>
+
+<main>
+
+  <header>
+  <h2 class="header_text"> Next Level</h2>
+  <p class="header_text"> For newbies at least</p>
+  <nav>
+    <a href="/#/">Blogs</a> 
+    <a href="/#/">Projects</a> 
+    <a href="/#/">About Me</a> 
+    <a href="/#/">Sources</a>
+  </nav>
+</header>
+
+  <header class="blogtitle">
+    <h1>Each versus Map</h1>
+    <h2>Side-effects versus New Object</h2>
+    <h4>5/24/15</h4>
+  </header>
+
+  <section>
+    <p>
+      <!-- Insert blog post here -->
+      To start talking about enumerable, we have to define what this weird word even means. An enumerable is a collection of methods that runs some type of sorting method on a data structure (array, hash, etc). Any enumerable will use #each as part of its function to iterate through each element of your data structure. So to provide the most basic of examples, calling #each on array = [1, 2, 3] will first select the element “1”, run whatever code you specify, and then start again on “2”, run the code, and so on until #each element has passed through the code. That is the basic premise of an enumerable. 
+      <br>
+There are many methods in this class that do variations on what I just discussed, but I want to discuss a very common enumerable that is easily confused with #each. The enumerable #each will run the code block on each element, but the return value (output) is actually discarded if you don’t specify a destination for it. So you have a code that adds +1 to each element, the end result will still return [1, 2, 3]. Contrast this to #map, which will run the code block and return the values in a new object with those changes. This means that the original array stays intact, but the output will be [2,3,4].  There are many situations where you’ll just want to use #each for its side-effect of “temporarily” producing an output and #map for its return of a new object with the new changes. 
+
+
+    </p>
+
+
+  </section>
+
+    <footer>
+    <p>
+    Author: Andrew Pham<br>
+    Last Updated On: Todays-Date<br>
+    Disclaimer: All these thoughts come from my brain.
+    </p>
+  </footer>
+
+
+</main>
+
