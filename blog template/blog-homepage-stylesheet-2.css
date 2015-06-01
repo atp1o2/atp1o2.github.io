@@ -5,80 +5,89 @@
 .container {
 	font-family: sans-serif;
 	margin: 0px auto;
+background-image: url("http://movies.flabber.nl/wp2013-12/need-for-Speed-had-ook-de-titel-van-een-film-over-drugsverslaving-kunnen-zijn.jpg");
 }
 
 header {
-	background-color: #FFCD19;
-	border: 4px solid #545454;
+padding-top: 3%;
+margin-left: 39%;
 }
 
 .header_text {
-	color: black;
+	color: #300075;
+  font-size: bold;
+  font-style: underline;
 	display:block;
-	margin-left: 7%;
+	
+  font-family: Arial;
 } 
-
+/*add image buttons for hyperlinks*/
 header nav {
-	background-color: #FFBC21;
-	border:1px solid #545454;
-	margin-left: 60%;
+
 	display:inline;
 }
+header nav a {
+  color: rgba(4, 0, 176, 0.9);
 
+}
 header nav:link{
 	text-decoration: none;
-	color: #E87147;
 }
-
 header nav:hover{
 	background-color: #545454;
 }
-
 header nav:visited{
 	font-color: red;
 }
 
 
 
+
+
+
+
 .blogs{
   display: inline-flex;
   float: left;
-  margin-left: 15%;
+  margin-left: 25.5%;
   margin-top: 5%;
   margin-bottom: 3%;
-  border: 2px solid black;
   width: 820px;
-  background-color: #B6C8A9;
-	
 }
+
+.blog_links a {
+  color: rgba(81, 0, 0, 0.93);
+}
+
 #culture {
   display: inline-block;
-  background-color: #0092B2;
+  background-color: rgba(0, 146, 178, 0.42);;
+  border: 1px solid black;
+  margin: 3%;
+  height: 400px;
+  width: 400px;
+}
+#technical{
+  display: inline-block;
+  background-color: rgba(159, 189, 0, 0.39);
   border: 1px solid black;
   margin: 3%;
   height: 400px;
   width: 400px;
 }
 
-#technical{
-  display: inline-block;
-  background-color: #9FBD00;
-  border: 1px solid black;
-  margin: 3%;
-  height: 400px;
-  width: 400px;
-}
 
 
 
 #social {
 	float: right;
-	margin-right: 1em;
-	margin-top: 5em;
-	background-color: #FFBC21;
-	border: 1px dashed black;
+	margin-top: 10%;
+  margin-right: 25%;
+	background-color: rgba(255, 188, 33, 0.45);
+	border: 1px solid black;
 }
 .links {
+  color: rgba(81, 0, 0, 0.93);
   margin-top: 50%;
   display: block;
   /*background-color: #FFF80B;*/
@@ -86,12 +95,16 @@ header nav:visited{
 
 
 
+
+
+
 footer {
-  margin-bottom: 10%;
+
   clear: both;
-  border: 2px solid gray;
+/*  border: 2px solid gray;*/
   width: 100%;
   text-align: center;
-  margin-top: 35%;
-  background-color: #B52804;
+  margin-top: 33%;
+  font-size: 20px;
+  padding-bottom: 3%;
 }
