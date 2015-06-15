@@ -33,9 +33,6 @@ header nav a {
 header nav:link{
 	text-decoration: none;
 }
-header nav:hover{
-	background-color: #545454;
-}
 header nav:visited{
 	font-color: red;
 }
@@ -61,7 +58,7 @@ header nav:visited{
 
 #culture {
   display: inline-block;
-  background-color: rgba(0, 146, 178, 0.42);;
+  background-color: rgba(0, 146, 178, 0.42);
   border: 1px solid black;
   margin: 3%;
   height: 400px;

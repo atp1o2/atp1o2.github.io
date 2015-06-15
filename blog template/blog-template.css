@@ -1,0 +1,75 @@
+/*normalize margins and padding*/
+
+
+
+.container {
+	font-family: sans-serif;
+	margin: 0px auto;
+	background-image: url("http://movies.flabber.nl/wp2013-12/need-for-Speed-had-ook-de-titel-van-een-film-over-drugsverslaving-kunnen-zijn.jpg");
+}
+
+header {
+	padding-top: 3%;
+	margin-left: 39%;
+}
+
+.header_text {
+	color: #300075;
+	font-size: bold;
+	font-style: underline;
+	display:block;
+  	font-family: Arial;
+} 
+/*add image buttons for hyperlinks*/
+
+header nav {
+
+	display:inline;
+}
+header nav a {
+  color: rgba(4, 0, 176, 0.9);
+
+}
+header nav:link{
+	text-decoration: none;
+}
+
+header nav:visited{
+	font-color: red;
+}
+
+
+
+
+
+
+
+#blog_title {
+  /* display: inline-block; */
+  border: 1px solid black;
+  background-color: rgba(239, 230, 34, 0.26);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  padding-left: 2%;
+}
+
+
+#blog {
+  display: inline-block;
+  background-color: rgba(0, 146, 178, 0.42);;
+  border: 1px solid black;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 2%;
+}
+
+
+
+footer {
+	margin-top: 5%;
+	padding-bottom: 6%;
+	clear: both;
+	text-align: center;
+
+}
