@@ -1,48 +1,68 @@
 <!DOCTYPE html>
+<html>
 <head>
   <title>Next Level Blog Posts</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="blog-template.css"/>
 </head>
 
-<main>
+<body>
+<div class = "container">
 
   <header>
-  <h2 class="header_text"> Next Level Coding</h2>
-  <p class="header_text"> For newbies at least</p>
-  <nav>
-    <a href="/#/">Blogs</a> 
-    <a href="/#/">Projects</a> 
-    <a href="/#/">About Me</a> 
-    <a href="/#/">Sources</a>
-  </nav>
-</header>
-
-  <header class="blogtitle">
-    <h1>Inline Please!</h1>
-    <h2>Inline versus Inline-blocks</h2>
-    <h4>5/10/14</h4>
+    <h1 class="header_text"> Sense </h1>
+    <h2 class="header_text"> Reflections on Coding </h2>
+    <nav>
+      <a href="/#/">Blogs</a>|
+      <a href="/#/">Projects</a>|
+      <a href="/#/">About Me</a>|
+      <a href="/#/">Sources</a>|
+    </nav>
   </header>
 
-  <section>
-    <p>
-What does it mean to display inline vs inline blocks?
 
-The display selector defines how an element is well, displayed. It can make the element act like a box, a tight group of text, or a combination of both. Depending on the property chosen, different margin rules and alignments are assigned. An inline property is usually reserved for smaller text level elements (like <span>) and allows other elements to sit to their left & right on the same line. It does not respect top & bottom margins nor accept height/width settings. An inline-block is very similar in that it allows elements to sit to the left & right of it on the same line. The differences are that it accepts height/width settings to form box dimensions, accepts top & bottom margins, and has whitespace around it. This allows it to be formatted on the document much more freely. I typically use inline displays for a row of hyperlinks and use inline-blocks to format the bigger areas of the document, like a blog post. 
-
-    </p>
-
-
+  <section id = "blog_title">
+    <h1> Arrays versus Hashes </h1>
+    <h3> Why..? </h3>
+    <h4> 5/17/2015 </h4>
   </section>
 
-    <footer>
+
+  <section id = "blog">
     <p>
-    Author: Andrew Pham<br>
-    Last Updated On: Todays-Date<br>
-    Disclaimer: All these thoughts come from my brain.
+
+    <!-- INSERT BLOG HERE -->
+Why do we have these two data structures that basically do the same thing - hold data? It’s because they hold data differently is the obvious answer. You can think of arrays as a list of groceries that you can edit. You can add carrots to that list of groceries and delete potatoes after you’ve purchased them. Now arrays get a lot more complicated in the methods you can perform on them. For example, say you had a program that can cycle through your grocery list and spits out a calorie readout for each item. While basic, this is an example of iterating through an array. You can also iterate through a hash, but a hash holds information differently. I like to think of it as a contact book where you write down the person’s name on the line written “First Name”. Now our contact book (hash) has the key, “First Name” equal to the value “Andrew”. You can also iterate over either the keys or values in a hash. An easy iteration would be to iterate over only the hash values and print each value out. You’ll most likely stick to arrays when the data type is all strings, integers, or other objects. Hashes are usually used when you have a combination of different data types. Using our phonebook example, “Age” is a string and the value 24 would be an integer. Over time, the decision to use one over the other will come naturally. 
+
+
     </p>
+  </section>
+
+
+
+<!--  <nav id="social">
+    <a class="links" href="#">Twitter</a>
+    <a class="links" href="#">GitHub</a>
+    <a class="links" href="#">Portfolio</a>
+    <a class="links" href="#">Other</a>
+  </nav> -->
+
+
+  <footer>
+    <p>
+    By: Andrew Pham <br>
+    DBC: SF Grasshoppers 2015
+    <p id="demo"></p>
+    <script>
+      d = new Date();
+      document.getElementById("demo").innerHTML = d;
+    </script>
+  </p>
+  </p> Updated Homepage template on 5/31/15<br> Blog Article templates next week </p>
+
   </footer>
 
 
-</main>
-
+</div>
+</body>
+</html>

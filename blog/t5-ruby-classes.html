@@ -3,47 +3,68 @@
 <head>
   <title>Next Level Blog Posts</title>
   <meta charset="UTF-8"/>
-  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css"/>
+  <link rel="stylesheet" type="text/css" href="blog-template.css"/>
 </head>
 
-
 <body>
+<div class = "container">
 
   <header>
-  <h2 class="header_text"> Climate Sense</h2>
-  <p class="header_text"> Reflections on Coding </p>
-  <nav>
-    <a href="/#/">Blogs</a> 
-    <a href="/#/">Projects</a> 
-    <a href="/#/">About Me</a> 
-    <a href="/#/">Sources</a>
-  </nav>
-</header>
-
-  <header class="blogtitle">
-    <h1>Classes Class </h1>
-    <h2>Using Google Wallet!</h2>
-    <h4>5/3/14</h4>
+    <h1 class="header_text"> Sense </h1>
+    <h2 class="header_text"> Reflections on Coding </h2>
+    <nav>
+      <a href="/#/">Blogs</a>|
+      <a href="/#/">Projects</a>|
+      <a href="/#/">About Me</a>|
+      <a href="/#/">Sources</a>|
+    </nav>
   </header>
 
-  <section>
+
+  <section id = "blog_title">
+    <h1> Classes Class </h1>
+    <h3> ft. Google Wallet </h3>
+    <h4> 5/30/15 </h4>
+  </section>
+
+
+  <section id = "blog">
     <p>
-Let’s use Google Wallet as our model to explain classes. The application itself will act as our class that holds all of our methods to gather data and methods to output what we want. Keep in mind this isn’t how Google Wallet actually works, but hopefully will serve as a nice metaphor for classes! So let’s say I wanted to add my debit card to Google Wallet. I can call a method, say “Add”, that will ask for the my debit cards credentials (which I won’t add here). After inputting the credentials, Google Wallet will store my debit card, call it DEBIT_1, as an instance of that class. It looks like I entered the wrong address, so I can call a method, “Change Card”, to change my address. The new address will still be saved into the DEBIT1 instance. Now say I add another DEBIT2 card. The beauty of classes is that all of its instances are held under the class, so they can interact with each other. For example, if I wanted to “Transfer”, I could tell DEBIT1 to talk to DEBIT2 and then transfer the money. 
+
+    <!-- INSERT BLOG HERE -->
+Let’s use Google Wallet as our model to explain classes. The application itself will act as our class that holds all of our methods to gather data and methods to output what we want. Keep in mind this isn’t how Google Wallet actually works, but hopefully will serve as a nice metaphor for classes! So let’s say I wanted to add my debit card to Google Wallet. I can call a method, say “Add”, that will ask for the my debit cards credentials (which I won’t add here). After inputting the credentials, Google Wallet will store my debit card, call it DEBIT_1, as an instance of that class. It looks like I entered the wrong address, so I can call a method, “Change Card”, to change my address. The new address will still be saved into the DEBIT1 instance. Now say I add another DEBIT2 card. The beauty of classes is that all of its instances are held under the class, so they can interact with each other. For example, if I wanted to “Transfer”, I could tell DEBIT1 to talk to DEBIT2 and then transfer the money.
 <br>
-If you were the programmer of this class, you would be coding the “Add”, “Change Card”, and “Transfer” methods of this class for other users to use. If you were the user, you can access this class by just calling the methods. Hope this helps as the bare basics for classes! Class dismissed. 
+If you were the programmer of this class, you would be coding the “Add”, “Change Card”, and “Transfer” methods of this class for other users to use. If you were the user, you can access this class by just calling the methods. Hope this helps as the bare basics for classes! 
+
 
     </p>
-
-
   </section>
+
+
+
+<!--  <nav id="social">
+    <a class="links" href="#">Twitter</a>
+    <a class="links" href="#">GitHub</a>
+    <a class="links" href="#">Portfolio</a>
+    <a class="links" href="#">Other</a>
+  </nav> -->
+
 
   <footer>
     <p>
-    Author: Andrew Pham<br>
-    Last Updated On: Todays-Date<br>
-    </p>
+    By: Andrew Pham <br>
+    DBC: SF Grasshoppers 2015
+    <p id="demo"></p>
+    <script>
+      d = new Date();
+      document.getElementById("demo").innerHTML = d;
+    </script>
+  </p>
+  </p> Updated Homepage template on 5/31/15<br> Blog Article templates next week </p>
+
   </footer>
 
 
+</div>
 </body>
 </html>

@@ -3,50 +3,66 @@
 <head>
   <title>Next Level Blog Posts</title>
   <meta charset="UTF-8"/>
-  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css"/>
+  <link rel="stylesheet" type="text/css" href="blog-template.css"/>
 </head>
 
-
 <body>
+<div class = "container">
 
   <header>
-  <h2 class="header_text"> ATP Blog on Coding</h2>
-  <p class="header_text"> For newbies at least</p>
-  <nav>
-    <a href="/#/">Blogs</a> 
-    <a href="/#/">Projects</a> 
-    <a href="/#/">About Me</a> 
-    <a href="/#/">Sources</a>
-  </nav>
-</header>
-
-  <header class="blogtitle">
-    <h1>Learning GitHub</h1>
-    <h2>It's like a manual dropbox</h2>
-    <h4>5/8/14</h4>
+    <h1 class="header_text"> Sense </h1>
+    <h2 class="header_text"> Reflections on Coding </h2>
+    <nav>
+      <a href="/#/">Blogs</a>|
+      <a href="/#/">Projects</a>|
+      <a href="/#/">About Me</a>|
+      <a href="/#/">Sources</a>|
+    </nav>
   </header>
 
-  <section>
-    <p>
-        Welcome to the first entry in this blog. The way I like to learn is by comparing the new material to a system I already know the ins and outs to, and finding the key differences that separates them. So here is my take on explaining version control. Version control is a system that will take the code you wrote, in whatever language, and create a new version of that file. From this point, every time you decide to save any changes to that file, version control will create another newer version of that version while keeping the previous version. So in total, you have two different versions that you can return to at any time. Contrast this to Microsoft Word, where saving a document will overwrite the same file. Git is just a type of version control system. What makes git popular is its git tracking feature, which forces you to log every change you made to a file and keeping previous versions of that file in progressive branches.
-    </p>
-    <p>
-        Now that we are using Git to keep track of all the changes in our file, we can upload (push) these changes to a remote online hub known as, Github. Github will store and log every change you make to your files for everyone to see. Yes, anyone can view, take, copy, use the public codes you commit to Github. It seems odd, but this is exactly what you want when working with a team of developers working on the same project. Everyone can simultaneously upload their latest version for others to build upon while maintaining previous versions in case there's a mistake. 
 
-        Neat, isn't it?
-    </p>
-
-
+  <section id = "blog_title">
+    <h1> Inline Please </h1>
+    <h3> Inline versus Inline-blocks </h3>
+    <h4> 5/10/14 </h4>
   </section>
+
+
+  <section id = "blog">
+    <p>
+
+    <!-- INSERT BLOG HERE -->
+What does it mean to display inline vs inline blocks? The display selector defines how an element is well, displayed. It can make the element act like a box, a tight group of text, or a combination of both. Depending on the property chosen, different margin rules and alignments are assigned. An inline property is usually reserved for smaller text level elements (like ) and allows other elements to sit to their left & right on the same line. It does not respect top & bottom margins nor accept height/width settings. An inline-block is very similar in that it allows elements to sit to the left & right of it on the same line. The differences are that it accepts height/width settings to form box dimensions, accepts top & bottom margins, and has whitespace around it. This allows it to be formatted on the document much more freely. I typically use inline displays for a row of hyperlinks and use inline-blocks to format the bigger areas of the document, like a blog post. 
+
+
+    </p>
+  </section>
+
+
+
+<!--  <nav id="social">
+    <a class="links" href="#">Twitter</a>
+    <a class="links" href="#">GitHub</a>
+    <a class="links" href="#">Portfolio</a>
+    <a class="links" href="#">Other</a>
+  </nav> -->
+
 
   <footer>
     <p>
-    Author: Andrew Pham<br>
-    Last Updated On: Todays-Date<br>
-    Disclaimer: All these thoughts come from my brain.
-    </p>
+    By: Andrew Pham <br>
+    DBC: SF Grasshoppers 2015
+    <p id="demo"></p>
+    <script>
+      d = new Date();
+      document.getElementById("demo").innerHTML = d;
+    </script>
+  </p>
+  </p> Updated Homepage template on 5/31/15<br> Blog Article templates next week </p>
+
   </footer>
 
 
+</div>
 </body>
 </html>
